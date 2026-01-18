@@ -1,0 +1,10 @@
+# Ignore folders
+features_ECAPA_FaceNet/*
+!features_ECAPA_FaceNet/.gitkeep
+output/
+progress/
+__pycache__/
+.idea/
+evaluate_FOP_checkpoint_cross_modal_matching.py
+evaluate_FOP_checkpoint_verification.py
+*.pyc
