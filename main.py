@@ -295,7 +295,8 @@ if __name__ == '__main__':
                         help='learning rate (default: 1e-4)')
     parser.add_argument('--batch_size', type=int, default=512, help='Batch size for training.')
     parser.add_argument('--max_num_epoch', type=int, default=50, help='Max number of epochs to train, number')
-    parser.add_argument('--alpha_list', type=list, default=[1], help='Alpha Values List')
+    # parser.add_argument('--alpha_list', type=list, default=[1], help='Alpha Values List')
+    parser.add_argument('--alpha_list',type=float,nargs='+',default=[1] ,help='Alpha values list')
     # 900 is used to fit with MSM
     parser.add_argument('--dim_embed', type=int, default=900,
                         help='Embedding Size')
