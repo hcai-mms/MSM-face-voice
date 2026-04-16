@@ -30,7 +30,7 @@ Once the features are extracted, write them to a .csv file in features directory
 - **Linear Fusion:**
 
   ```bash
-  python main.py --cuda 1 --save_dir ./model --lr 1e-4 --batch_size 512 --max_num_epoch 25 --alpha_list [0.0, 0.1, 0.5, 1.0, 2.0, 5.0] --dim_embed 900 --fusion linear
+  python main.py --cuda 1 --save_dir ./model --lr 1e-4 --batch_size 512 --max_num_epoch 25 --alpha_list 0.0 0.1 0.5 1.0 2.0 5.0 --dim_embed 900 --fusion linear
   ```
 
 ### Testing
